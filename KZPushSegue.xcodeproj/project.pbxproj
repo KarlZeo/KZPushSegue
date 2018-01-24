@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A178847E2018CF8B006E6DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178847D2018CF8B006E6DE4 /* AppDelegate.swift */; };
+		A17884822018CF8B006E6DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17884812018CF8B006E6DE4 /* Assets.xcassets */; };
+		A17884852018CF8B006E6DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17884832018CF8B006E6DE4 /* Main.storyboard */; };
+		A178848E2018D029006E6DE4 /* KZPushSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178848D2018D029006E6DE4 /* KZPushSegue.swift */; };
+		A17884912018D09B006E6DE4 /* FirstWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178848F2018D09B006E6DE4 /* FirstWindowController.swift */; };
+		A17884922018D09B006E6DE4 /* FirstWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A17884902018D09B006E6DE4 /* FirstWindowController.xib */; };
+		A17884952018D0AF006E6DE4 /* SecondWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17884932018D0AF006E6DE4 /* SecondWindowController.swift */; };
+		A17884962018D0AF006E6DE4 /* SecondWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A17884942018D0AF006E6DE4 /* SecondWindowController.xib */; };
+		A17884992018D0C6006E6DE4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17884972018D0C6006E6DE4 /* FirstViewController.swift */; };
+		A178849A2018D0C6006E6DE4 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A17884982018D0C6006E6DE4 /* FirstViewController.xib */; };
+		A178849D2018D0CF006E6DE4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178849B2018D0CF006E6DE4 /* SecondViewController.swift */; };
+		A178849E2018D0CF006E6DE4 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A178849C2018D0CF006E6DE4 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A178847A2018CF8B006E6DE4 /* KZPushSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZPushSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A178847D2018CF8B006E6DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A17884812018CF8B006E6DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17884842018CF8B006E6DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A17884862018CF8B006E6DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17884872018CF8B006E6DE4 /* KZPushSegue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZPushSegue.entitlements; sourceTree = "<group>"; };
+		A178848D2018D029006E6DE4 /* KZPushSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KZPushSegue.swift; sourceTree = "<group>"; };
+		A178848F2018D09B006E6DE4 /* FirstWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWindowController.swift; sourceTree = "<group>"; };
+		A17884902018D09B006E6DE4 /* FirstWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstWindowController.xib; sourceTree = "<group>"; };
+		A17884932018D0AF006E6DE4 /* SecondWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWindowController.swift; sourceTree = "<group>"; };
+		A17884942018D0AF006E6DE4 /* SecondWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondWindowController.xib; sourceTree = "<group>"; };
+		A17884972018D0C6006E6DE4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A17884982018D0C6006E6DE4 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		A178849B2018D0CF006E6DE4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A178849C2018D0CF006E6DE4 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17884772018CF8B006E6DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17884712018CF8B006E6DE4 = {
+			isa = PBXGroup;
+			children = (
+				A178847C2018CF8B006E6DE4 /* KZPushSegue */,
+				A178847B2018CF8B006E6DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A178847B2018CF8B006E6DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A178847A2018CF8B006E6DE4 /* KZPushSegue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A178847C2018CF8B006E6DE4 /* KZPushSegue */ = {
+			isa = PBXGroup;
+			children = (
+				A178848D2018D029006E6DE4 /* KZPushSegue.swift */,
+				A178847D2018CF8B006E6DE4 /* AppDelegate.swift */,
+				A17884812018CF8B006E6DE4 /* Assets.xcassets */,
+				A17884832018CF8B006E6DE4 /* Main.storyboard */,
+				A17884862018CF8B006E6DE4 /* Info.plist */,
+				A17884872018CF8B006E6DE4 /* KZPushSegue.entitlements */,
+				A178848F2018D09B006E6DE4 /* FirstWindowController.swift */,
+				A17884902018D09B006E6DE4 /* FirstWindowController.xib */,
+				A17884932018D0AF006E6DE4 /* SecondWindowController.swift */,
+				A17884942018D0AF006E6DE4 /* SecondWindowController.xib */,
+				A17884972018D0C6006E6DE4 /* FirstViewController.swift */,
+				A17884982018D0C6006E6DE4 /* FirstViewController.xib */,
+				A178849B2018D0CF006E6DE4 /* SecondViewController.swift */,
+				A178849C2018D0CF006E6DE4 /* SecondViewController.xib */,
+			);
+			path = KZPushSegue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17884792018CF8B006E6DE4 /* KZPushSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A178848A2018CF8B006E6DE4 /* Build configuration list for PBXNativeTarget "KZPushSegue" */;
+			buildPhases = (
+				A17884762018CF8B006E6DE4 /* Sources */,
+				A17884772018CF8B006E6DE4 /* Frameworks */,
+				A17884782018CF8B006E6DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZPushSegue;
+			productName = KZPushSegue;
+			productReference = A178847A2018CF8B006E6DE4 /* KZPushSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17884722018CF8B006E6DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Zeo;
+				TargetAttributes = {
+					A17884792018CF8B006E6DE4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A17884752018CF8B006E6DE4 /* Build configuration list for PBXProject "KZPushSegue" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17884712018CF8B006E6DE4;
+			productRefGroup = A178847B2018CF8B006E6DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17884792018CF8B006E6DE4 /* KZPushSegue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17884782018CF8B006E6DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17884822018CF8B006E6DE4 /* Assets.xcassets in Resources */,
+				A178849A2018D0C6006E6DE4 /* FirstViewController.xib in Resources */,
+				A178849E2018D0CF006E6DE4 /* SecondViewController.xib in Resources */,
+				A17884852018CF8B006E6DE4 /* Main.storyboard in Resources */,
+				A17884922018D09B006E6DE4 /* FirstWindowController.xib in Resources */,
+				A17884962018D0AF006E6DE4 /* SecondWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17884762018CF8B006E6DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A178849D2018D0CF006E6DE4 /* SecondViewController.swift in Sources */,
+				A17884992018D0C6006E6DE4 /* FirstViewController.swift in Sources */,
+				A178847E2018CF8B006E6DE4 /* AppDelegate.swift in Sources */,
+				A178848E2018D029006E6DE4 /* KZPushSegue.swift in Sources */,
+				A17884912018D09B006E6DE4 /* FirstWindowController.swift in Sources */,
+				A17884952018D0AF006E6DE4 /* SecondWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A17884832018CF8B006E6DE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17884842018CF8B006E6DE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A17884882018CF8B006E6DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A17884892018CF8B006E6DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A178848B2018CF8B006E6DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KZPushSegue/KZPushSegue.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8Z364AJ4ML;
+				INFOPLIST_FILE = KZPushSegue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeo.karl.mikulove.KZPushSegue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A178848C2018CF8B006E6DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KZPushSegue/KZPushSegue.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8Z364AJ4ML;
+				INFOPLIST_FILE = KZPushSegue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeo.karl.mikulove.KZPushSegue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17884752018CF8B006E6DE4 /* Build configuration list for PBXProject "KZPushSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17884882018CF8B006E6DE4 /* Debug */,
+				A17884892018CF8B006E6DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A178848A2018CF8B006E6DE4 /* Build configuration list for PBXNativeTarget "KZPushSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A178848B2018CF8B006E6DE4 /* Debug */,
+				A178848C2018CF8B006E6DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17884722018CF8B006E6DE4 /* Project object */;
+}

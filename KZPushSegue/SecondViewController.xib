@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SecondViewController" customModule="KZPushSegue" customModuleProvider="target">
+            <connections>
+                <outlet property="navBar" destination="9ul-7F-664" id="sOz-0g-3Ce"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="Second" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="9ul-7F-664">
+                    <rect key="frame" x="0.0" y="228" width="480" height="44"/>
+                    <subviews>
+                        <button focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pRX-t2-SOV">
+                            <rect key="frame" x="5" y="4" width="72" height="33"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="kF3-bl-xul"/>
+                            </constraints>
+                            <buttonCell key="cell" type="push" title="Back" bezelStyle="rounded" alignment="center" borderStyle="border" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="8sH-3d-iPa">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="backAction:" target="-2" id="aWD-uF-f0e"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="pRX-t2-SOV" secondAttribute="bottom" constant="11" id="9e7-Vi-Fzn"/>
+                        <constraint firstItem="pRX-t2-SOV" firstAttribute="top" secondItem="9ul-7F-664" secondAttribute="top" constant="11" id="OrR-jB-yYR"/>
+                        <constraint firstItem="pRX-t2-SOV" firstAttribute="leading" secondItem="9ul-7F-664" secondAttribute="leading" constant="11" id="Sj4-hy-Isu"/>
+                        <constraint firstAttribute="height" constant="44" id="aaJ-d8-8hU"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="9ul-7F-664" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="OFC-T7-weF"/>
+                <constraint firstAttribute="trailing" secondItem="9ul-7F-664" secondAttribute="trailing" id="a26-fO-k1h"/>
+                <constraint firstItem="9ul-7F-664" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="hu5-Yu-AF5"/>
+            </constraints>
+        </customView>
+    </objects>
+</document>
